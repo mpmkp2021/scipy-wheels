@@ -31,8 +31,8 @@ jobs:
     - os: linux
       env:
         - MB_PYTHON_VERSION=3.7
-        - NP_BUILD_DEP=numpy==1.19.1
-        - NP_TEST_DEP=numpy==1.19.1
+        - NP_BUILD_DEP=numpy==1.17.3
+        - NP_TEST_DEP=numpy==1.17.3
         - CYTHON_BUILD_DEP="Cython"
 
 before_install:
