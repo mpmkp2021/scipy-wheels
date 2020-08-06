@@ -16,7 +16,7 @@ def main():
 
     import scipy
     print("Scipy: {} {}".format(scipy.__version__, scipy.__path__))
-    ret = scipy.test(args.test_mode, extra_argv=args.pytest_args)
+    ret = scipy.test('fast', extra_argv=args.pytest_args)
 
     if hasattr(ret, 'wasSuccessful'):
         # Nosetests version
